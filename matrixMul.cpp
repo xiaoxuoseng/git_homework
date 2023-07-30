@@ -157,7 +157,7 @@ int main()
     free(matrixA);
     free(matrixB);
     free(matrixC);
-    std::cout << "Modify to make a conflict with branch feature" << endl;
+    std::cout << "Modify to resolve conflict" << std::endl;
     return 0;
 }
 
