@@ -141,7 +141,7 @@ void testMatMul(float * A, float * B, float * C, const int Arows, const int Acol
 
 int main()
 {
-    int Arows = 1024, Acols = 1288, Bcols = 1024;
+    int Arows = 1024, Acols = 128, Bcols = 1024;
     float * matrixA = (float *)malloc(sizeof(float) * Arows * Acols);
     float * matrixB = (float *)malloc(sizeof(float) * Acols * Bcols);
     float * matrixC = (float *)malloc(sizeof(float) * Arows * Bcols);
